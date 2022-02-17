@@ -1,7 +1,7 @@
 package main
 
 import (
-	"app"
+	"CursoGo/aplicacao_linha_comando_/app"
 	"fmt"
 	"log"
 	"os"
