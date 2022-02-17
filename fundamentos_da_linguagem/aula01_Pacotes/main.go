@@ -1,13 +1,13 @@
 package main
 
 import (
+	"CursoGo/fundamentos_da_linguagem/aula01_Pacotes/auxiliar"
 	"fmt"
-	"modulo/auxiliar"
 
 	"github.com/badoux/checkmail"
 )
 
-func main()  {
+func main() {
 	fmt.Println("Escrevendo do arquivo main")
 	auxiliar.Escrever()
 

@@ -2,17 +2,17 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 
-	func (){
+	func() {
 		fmt.Println("Olá Mundo!")
 	}()
 
-	func (texto string)  {
-		fmt.Println(texto)
-	}
+	//func (texto string)  {
+	//	fmt.Println(texto)
+	//}
 
-	retorno := func (texto string) string{
+	retorno := func(texto string) string {
 		return fmt.Sprintf("Recebido -> %s", texto)
 	}("Passando parametro")
 
